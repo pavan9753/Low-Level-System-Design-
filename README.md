@@ -10,5 +10,6 @@ Beginner-friendly low-level design practice questions. Each guide starts with an
 ## Other work
 
 - [Live deployed websites](Live_Deployed_Websites/README.md) — portfolio and fitness tracker demos, with their tech stacks and implementation notes.
+- [Portfolio React source](frontend_react/portfolio/README.md) — React app, assets, and local build/deploy instructions.
 
 Each guide covers requirements, core classes, relationships, a basic class diagram, example flows, and a few discussion points. The designs intentionally leave production concerns such as distributed storage and advanced concurrency for follow-up discussion.
