@@ -2,6 +2,16 @@
 
 **Level:** Beginner
 
+## Java example
+
+The runnable example is in [`Main.java`](Main.java). It demonstrates a card session, PIN authentication, balance inquiry, deposits, withdrawals, and a dispenser with $20 and $50 notes. The bank and ATM state are in-memory so the example uses only the Java standard library.
+
+```bash
+cd atm
+javac Main.java
+java Main
+```
+
 ## Interview prompt
 
 Design a basic ATM. A customer inserts a bank card and enters a PIN. After authentication, the customer can check their balance, deposit cash, or withdraw cash. The ATM should dispense cash only when the account has enough money and the ATM has enough notes.

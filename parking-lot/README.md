@@ -2,6 +2,16 @@
 
 **Level:** Beginner
 
+## Java example
+
+The runnable example is in [`Main.java`](Main.java). It demonstrates spot selection, ticket creation, hourly fee calculation, and releasing a spot. It uses only the Java standard library.
+
+```bash
+cd parking-lot
+javac Main.java
+java Main
+```
+
 ## Interview prompt
 
 Design a parking lot that can park cars and motorcycles. When a vehicle enters, assign it a suitable free parking spot and issue a ticket. When it leaves, close the ticket and calculate the parking fee.
